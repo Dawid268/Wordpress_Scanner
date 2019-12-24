@@ -17,7 +17,7 @@ public class Main
         try
         {
             programPath = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
-            path = programPath.toString().split("Praca_Magisterska-jar-with-dependencies.jar")[0];
+            path = programPath.toString().split("Maven Jar Package Name")[0];
             System.out.println(path);
         }
         catch(URISyntaxException e)
